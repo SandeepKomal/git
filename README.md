@@ -25,9 +25,10 @@ Use it to:
 
 | Resource | Purpose |
 | --- | --- |
-| **GIT Commands.txt** | Command-focused reference with explanations |
-| **Git Commands** | Plain-text command reference |
-| **GIT Theory & Interview Questions.docx** | Theory and interview-preparation material |
+| **[GIT Commands.md](GIT%20Commands.md)** | Full Git command reference, including account switching, branches, co-authors, recovery, GitHub CLI, and project workflows |
+| **[Git Commands.md](Git%20Commands.md)** | Quick command reference for common Git workflows |
+| **[GitHub-Workflow-Commands.md](GitHub-Workflow-Commands.md)** | GitHub CLI, pull requests, Actions, releases, forks, and collaboration workflows |
+| **[docs/git-interview-questions.md](docs/git-interview-questions.md)** | 30 practical Git interview questions and answers |
 
 ## Quick start
 
@@ -116,7 +117,7 @@ git branch backup-before-change
 
 ## Interview preparation
 
-The repository also includes a dedicated theory/interview resource. Focus on understanding:
+The repository now includes a dedicated Markdown interview resource. Focus on understanding:
 
 - Working tree vs staging area vs repository
 - Merge vs rebase
@@ -138,7 +139,7 @@ The repository also includes a dedicated theory/interview resource. Focus on und
 
 Planned improvements:
 
-- [ ] Convert command notes into structured Markdown pages.
+- [x] Convert legacy command notes into structured Markdown references.
 - [ ] Add real-world Git troubleshooting scenarios.
 - [ ] Add a larger interview question bank.
 - [ ] Add diagrams for Git internals and branching.
