@@ -22,3 +22,9 @@
 - **git stash** — The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
 - **git stash pop** — Popping your stash removes the changes from your stash and reapplies them to your working copy.
 - **git stash apply** — You can reapply the changes to your working copy and keep them in your stash with git stash apply
+
+## Branch switching
+
+- `git switch -c feature/name` — create and switch to a new branch.
+- `git switch main` — switch to the main branch.
+- `git branch -a` — list local and remote branches.
